@@ -11,3 +11,12 @@ name = "joel"
 print(nombre)
 print(telefono)
 print(name)
+
+# jugando con variables
+edad = 30
+print(edad)
+print(f"edad : {edad}")
+
+distrito = "la molina"
+print(distrito)
+print(f"nombre del distrito : {distrito}")
