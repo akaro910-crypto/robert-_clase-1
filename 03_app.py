@@ -39,3 +39,10 @@ print(f"fecha de hoy : {fecha_clase}")
 
 fecha_formateada = fecha_clase.strftime("%d/%m/%y")
 print(f"la fecha de hoy formateada es : {fecha_formateada}")
+
+fecha_cumpleaños = date(1988, 10, 22) # (yyyy, mm, dd)
+print(fecha_cumpleaños)
+print(f"cumpleaños robert : {fecha_cumpleaños}")
+
+fecha_formateada = fecha_cumpleaños.strftime("%d/%m/%y")
+print(f"fecha de cumpleaños con cambio de formato : {fecha_formateada}")
