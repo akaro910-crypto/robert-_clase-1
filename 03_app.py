@@ -20,3 +20,19 @@ print(f"edad : {edad}")
 distrito = "la molina"
 print(distrito)
 print(f"nombre del distrito : {distrito}")
+
+# precio de un producto
+precio = 55
+print(precio)
+print(f"precio del producto : {precio}")
+
+# es un cliente activo
+is_active_client = True
+print(is_active_client)
+print(f"¿esta actvo? :{is_active_client}")
+
+# trabajando con fechas
+from datetime import date
+fecha_clase = date(2025, 9, 22) # (yyyy, mm, dd)
+print(fecha_clase)
+print(f"fecha de hoy : {fecha_clase}")
