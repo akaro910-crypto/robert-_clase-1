@@ -17,3 +17,4 @@ carros = ["toyota", "nissan", "chevrolec", "audi", "kia"]
 
 for carro in carros:
     print(carro)
+    
